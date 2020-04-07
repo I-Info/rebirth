@@ -11,26 +11,26 @@ get_header();
 
         <style type="text/css" id="responsive-header-img-css" class="responsive-header-img-css">
             .responsive-header-img {
-                background-image: url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim');
+                background-image: url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg');
             }
 
             @media (max-width: 1000px) {
                 .responsive-header-img {
-                    background-image: url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim');
-                    background-image: -webkit-image-set(url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim') 1x,
-                    url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim') 2x);
-                    background-image: image-set(url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim') 1x,
-                    url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim') 2x);
+                    background-image: url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg');
+                    background-image: -webkit-image-set(url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 1x,
+                    url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 2x);
+                    background-image: image-set(url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 1x,
+                    url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 2x);
                 }
             }
 
             @media (max-width: 600px) {
                 .responsive-header-img {
-                    background-image: url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim');
-                    background-image: -webkit-image-set(url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim') 1x,
-                    url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim') 2x);
-                    background-image: image-set(url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim') 1x,
-                    url('https://pic.yqqy.top/blog/20200223195612.jpg?imageslim') 2x);
+                    background-image: url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg');
+                    background-image: -webkit-image-set(url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 1x,
+                    url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 2x);
+                    background-image: image-set(url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 1x,
+                    url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 2x);
                 }
             }
         </style>

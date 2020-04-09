@@ -44,7 +44,8 @@ get_header();
         <div class="container-sm">
             <div class="row">
                 <article class="post page borderbox post-content custom-links-template">
-                    <p>下面的都是大佬！ </p>
+                    <h3>下面的都是大佬！ </h3>
+                    <p>公平起见，均已随机排序</p>
                     <hr>
 					<?php $linkCats = get_terms("link_category", "orderby=term_id") ?>
 					<?php if (!empty($linkCats)) : ?>

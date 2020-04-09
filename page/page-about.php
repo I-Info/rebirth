@@ -49,7 +49,7 @@ get_header();
                 <h2 id="h2--i_info"><a name="关于I_Info" class="reference-link"></a><span class="header-link octicon octicon-link">
 		</span>关于I_Info</h2>
 		<p>I_Info,一个不知名的b站up主。</p>
-	    	<p>今年准备参加高考，所以一直都没有更新视频，平时空闲也只做了一点点IT相关的研究。更多还是留到毕业后或大学的时候研究吧。</p>
+	    <p>今年准备参加高考，所以一直都没有更新视频（也没时间写博客。。所以博客还没有什么东西，抱歉。。），平时空闲也只做了一点点IT相关的研究。更多的还是留到毕业后或大学的时候研究吧。</p>
 		<p>主要目标研究领域:网络工程，软件工程。也是现在我常研究的方向。</p>
 		<p>感谢你能在茫茫互联网世界关注到我。😀️</p>
 		<h2 id="h2-u5173u4E8Eu672Cu7AD9"><a name="关于本站" class="reference-link"></a><span class="header-link octicon octicon-link"></span>关于本站</h2><p>这个网站就是我的一个博客，拿来挂一些干货和一些小小的研究成果，技术不到位的地方肯定会有很多，欢迎在评论区指出🙃️</p>

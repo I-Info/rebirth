@@ -44,7 +44,7 @@ get_header();
         <div class="container-sm">
             <div class="row">
                 <article class="post page borderbox post-content custom-links-template">
-                    <p>您好，我的朋友！ </p>
+                    <p>下面的都是大佬！ </p>
                     <hr>
 					<?php $linkCats = get_terms("link_category", "orderby=term_id") ?>
 					<?php if (!empty($linkCats)) : ?>
@@ -91,6 +91,8 @@ get_header();
 							<?php endforeach; ?>
                         </ul>
 					<?php endif; ?>
+                    <p></p>
+                    <p>em，没时间写友链要求，如果想要互换友链，就先给我的邮箱留言吧。。</a href="mailto:i-info@i-info.xyz">mail</a></p>
                 </article>
             </div>
         </div>

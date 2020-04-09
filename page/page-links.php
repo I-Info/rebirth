@@ -92,7 +92,7 @@ get_header();
                         </ul>
 					<?php endif; ?>
                     <p></p>
-                    <p>em，没时间写友链要求，如果想要互换友链，就先给我的邮箱留言吧。。</a href="mailto:i-info@i-info.xyz">mail</a></p>
+                    <p>em，没时间写友链要求，如果想要互换友链，就先给我的邮箱留言吧。。<a href="mailto:i-info@i-info.xyz">mail</a></p>
                 </article>
             </div>
         </div>

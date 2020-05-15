@@ -38,12 +38,7 @@ get_header();
     <div class="d-flex flex-column align-content-center justify-content-center main-hero-content">
         <div class="text-center main-hero-content-title">关于本站</div>
         <div class="text-center main-hero-content-description">
-<<<<<<< HEAD
             I-Info / <time datetime="2018-10-06">2020-02-09</time> /
-=======
-            Yqchilde /
-            <time datetime="2018-10-06">2020-02-09</time>
->>>>>>> 5ed1b4c0f41d3b8431c7bc04a4419a2a99a37045
         </div>
     </div>
 </section>

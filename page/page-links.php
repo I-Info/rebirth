@@ -38,7 +38,7 @@ get_header();
         <div class="d-flex flex-column align-content-center justify-content-center main-hero-content">
             <div class="text-center main-hero-content-title">友情链接</div>
         </div>
-        <div class="main-hero-header header-left"></div>
+		<?php get_template_part( 'tpl/site/site', 'wave' ); ?>
     </section>
     <main class="main-content">
         <div class="container-sm">
@@ -47,23 +47,27 @@ get_header();
                     <h3>下面的都是大佬！ </h3>
                     <p>公平起见，均已随机排序</p>
                     <hr>
-					<?php $linkCats = get_terms("link_category", "orderby=term_id") ?>
-					<?php if (!empty($linkCats)) : ?>
-						<?php foreach ($linkCats as $linkCat) : ?>
+					<?php $linkCats = get_terms( "link_category", "orderby=term_id" ) ?>
+					<?php if ( ! empty( $linkCats ) ) : ?>
+						<?php foreach ( $linkCats as $linkCat ) : ?>
                             <blockquote>
                                 <p><?php echo $linkCat->name ?></p>
                             </blockquote>
                             <ul class="row mx-0">
-								<?php $items = getTheLinkItems($linkCat->term_id);
-								foreach ($items as $v) : ?>
+								<?php $items = getTheLinkItems( $linkCat->term_id );
+								foreach ( $items as $v ) : ?>
                                     <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                                         <div class="shadow px-3 links-item-wrapper">
                                             <div class="links-item-wrapper-header">
-                                                <a target="_blank" href="<?php echo $v['link_url'] ?>"><img src="<?php echo $v['link_image'] ?>" class="border links-item-wrapper-header-avatar" alt="<?php echo $v['link_name'] ?>"></a>
+                                                <a target="_blank" href="<?php echo $v['link_url'] ?>"><img
+                                                            src="<?php echo $v['link_image'] ?>"
+                                                            class="border links-item-wrapper-header-avatar"
+                                                            alt="<?php echo $v['link_name'] ?>"></a>
                                             </div>
                                             <div class="links-item-wrapper-content">
                                                 <div class="links-item-wrapper-content-name">
-                                                    <a target="_blank" href="<?php echo $v['link_url'] ?>"><?php echo $v['link_name'] ?></a>
+                                                    <a target="_blank"
+                                                       href="<?php echo $v['link_url'] ?>"><?php echo $v['link_name'] ?></a>
                                                 </div>
                                                 <div class="links-item-wrapper-content-desc"><?php echo $v['link_description'] ?></div>
                                             </div>
@@ -75,15 +79,19 @@ get_header();
 					<?php else : ?>
                         <ul class="row mx-0">
 							<?php $items = getTheLinkItems();
-							foreach ($items as $v) : ?>
+							foreach ( $items as $v ) : ?>
                                 <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                                     <div class="shadow px-3 links-item-wrapper">
                                         <div class="links-item-wrapper-header">
-                                            <a target="_blank" href="<?php echo $v['link_url'] ?>"><img src="<?php echo $v['link_image'] ?>" class="border links-item-wrapper-header-avatar" alt="<?php echo $v['link_name'] ?>"></a>
+                                            <a target="_blank" href="<?php echo $v['link_url'] ?>"><img
+                                                        src="<?php echo $v['link_image'] ?>"
+                                                        class="border links-item-wrapper-header-avatar"
+                                                        alt="<?php echo $v['link_name'] ?>"></a>
                                         </div>
                                         <div class="links-item-wrapper-content">
                                             <div class="links-item-wrapper-content-name">
-                                                <a target="_blank" href="<?php echo $v['link_url'] ?>"><?php echo $v['link_name'] ?></a>
+                                                <a target="_blank"
+                                                   href="<?php echo $v['link_url'] ?>"><?php echo $v['link_name'] ?></a>
                                             </div>
                                             <div class="links-item-wrapper-content-desc"><?php echo $v['link_description'] ?></div>
                                         </div>

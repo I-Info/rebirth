@@ -6,7 +6,7 @@
 get_header();
 
 ?>
-<section class="main-hero ">
+<section class="main-hero">
 
     <style type="text/css" id="responsive-header-img-css" class="responsive-header-img-css">
         .responsive-header-img {
@@ -66,6 +66,4 @@ get_header();
         </div>
     </div>
 </main>
-
-
 <?php get_footer(); ?>

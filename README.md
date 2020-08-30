@@ -85,3 +85,5 @@ Rebirth主题的WordPress版本是完全移植过来的，原主题为`JaxsonWan
 ## License
 
 WordPress Theme Rebirth is open source and released under the MIT License.
+
+# i-info对代码进行了一定的修改，用于自己的博客，如需克隆，请回源地址。

@@ -183,9 +183,9 @@ function getCurrentCategoryCount() {
 	return get_category( $cat_ID )->count;
 }
 
-// 友情链接
+// 友情链接(随机排列)
 function getTheLinkItems( $id = null ) {
-	$bookmarks = get_bookmarks( 'orderby=link_id&category=' . $id );
+	$bookmarks = get_bookmarks( 'orderby=rand&category=' . $id );
 	$linksInfo = [];
 	if ( ! empty( $bookmarks ) ) {
 		foreach ( $bookmarks as $k => $bookmark ) {

@@ -11,26 +11,26 @@ get_header();
 
         <style type="text/css" id="responsive-header-img-css" class="responsive-header-img-css">
             .responsive-header-img {
-                background-image: url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1");
+                background-image: url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg');
             }
 
             @media (max-width: 1000px) {
                 .responsive-header-img {
-                    background-image: url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1");
-                    background-image: -webkit-image-set(url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1") 1x,
-                    url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1") 2x);
-                    background-image: image-set(url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1") 1x,
-                    url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1") 2x);
+                    background-image: url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg');
+                    background-image: -webkit-image-set(url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 1x,
+                    url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 2x);
+                    background-image: image-set(url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 1x,
+                    url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 2x);
                 }
             }
 
             @media (max-width: 600px) {
                 .responsive-header-img {
-                    background-image: url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1");
-                    background-image: -webkit-image-set(url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1") 1x,
-                    url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1") 2x);
-                    background-image: image-set(url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1") 1x,
-                    url("https://pic.yqqy.top/blog/20200223195612.jpg?imageMogr2/format/webp/interlace/1") 2x);
+                    background-image: url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg');
+                    background-image: -webkit-image-set(url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 1x,
+                    url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 2x);
+                    background-image: image-set(url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 1x,
+                    url('https://www.i-info.xyz/wp-content/uploads/2020/02/56f0119469401b6d4e057f3d.jpg') 2x);
                 }
             }
         </style>
@@ -43,8 +43,9 @@ get_header();
     <main class="main-content">
         <div class="container-sm">
             <div class="row">
-                <article class="post page borderbox post-content post-content-use-blank custom-links-template">
-                    <p>您好，我的朋友！ </p>
+                <article class="post page borderbox post-content custom-links-template">
+                    <h3>下面的都是大佬！ </h3>
+                    <p>公平起见，均已随机排序</p>
                     <hr>
 					<?php $linkCats = get_terms( "link_category", "orderby=term_id" ) ?>
 					<?php if ( ! empty( $linkCats ) ) : ?>
@@ -99,6 +100,8 @@ get_header();
 							<?php endforeach; ?>
                         </ul>
 					<?php endif; ?>
+                    <p></p>
+                    <p>em，没时间写友链要求，如果想要互换友链，就先给我的邮箱留言吧。。<a href="mailto:i-info@i-info.xyz">mail</a></p>
                 </article>
             </div>
         </div>

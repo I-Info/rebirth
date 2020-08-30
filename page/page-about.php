@@ -49,8 +49,9 @@ get_header();
                 <h2 id="h2--i_info"><a name="关于I_Info" class="reference-link"></a><span class="header-link octicon octicon-link">
 		</span>关于I_Info</h2>
 		<p>I_Info,一个不知名的b站up主。</p>
-	    <p>今年准备参加高考，所以一直都没有更新视频（也没时间写博客。。所以博客还没有什么东西，抱歉。。），平时空闲也只做了一点点IT相关的研究。更多的还是留到毕业后或大学的时候研究吧。</p>
+	    <p>由于之前参加高考，一直都没有更新视频（也没时间写博客。。所以博客还没有什么东西，抱歉。。）</p>
 		<p>主要目标研究领域:网络工程，软件工程。也是现在我常研究的方向。</p>
+        <p>目前本人就读 ZJUT 的软件工程专业</p>
 		<p>感谢你能在茫茫互联网世界关注到我。😀️</p>
 		<h2 id="h2-u5173u4E8Eu672Cu7AD9"><a name="关于本站" class="reference-link"></a><span class="header-link octicon octicon-link"></span>关于本站</h2><p>这个网站就是我的一个博客，拿来挂一些干货和一些小小的研究成果，技术不到位的地方肯定会有很多，欢迎在评论区指出🙃️</p>
 		<p>服务器:hostinger超便宜空间。拿来挂一个小博客刚刚好。</p>
@@ -60,8 +61,7 @@ get_header();
                 <p><a>i-info@i-info.xyz</a></p>
                 <p>不一定看见，但是看见了就一定回</p>
                 <h3 id="--4">声明</h3>
-                <p>本博客所有内容采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享
-                        4.0 国际许可协议进行许可</a>。</p>
+                <p>本博客所有内容采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</a>。</p>
             </article>
         </div>
     </div>

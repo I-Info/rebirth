@@ -101,7 +101,10 @@ get_header();
                         </ul>
 					<?php endif; ?>
                     <p></p>
-                    <p>em，没时间写友链要求，如果想要互换友链，就先给我的邮箱留言吧。。<a href="mailto:i-info@i-info.xyz">mail</a></p>
+                    <p>本站的链接信息请看上面的INFO分类目录，如需添加友链请：<a href="mailto:i-info@i-info.xyz">mail</a></p>
+                    <h3>友链要求：</h3>
+                    <p>1.只接受对等友链</p>
+                    <p>2.格式：网站名+网站URL+头图URL+网站信息</p>
                 </article>
             </div>
         </div>
